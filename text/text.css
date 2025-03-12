@@ -1,0 +1,23 @@
+body{
+    background-color: black;
+    color: white;
+}
+
+.heading{
+    color: aqua;
+    /* text-decoration: underline;/*overline, line throgh */
+    text-decoration-color: yellow;
+    text-decoration-style: wavy;/* double, solid, dashed, dotted*/
+    font-size: 20px;
+    font-style: italic;
+    text-align: center;
+    font-family: cursive;
+
+}
+
+p{
+    /* word-spacing: 50px;
+    letter-spacing: 20px; */
+    line-height: 50px;
+    font-weight:bold; 
+}

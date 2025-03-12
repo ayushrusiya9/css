@@ -1,0 +1,4 @@
+.flex{
+    display: flex;
+    justify-content: space-between;/* space-around-> space in left or right space-evenly-> space equaly space between-> space in middle*/
+}
