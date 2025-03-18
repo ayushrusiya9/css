@@ -1,0 +1,54 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 40px;
+    margin-top: 100px;
+}
+
+.thailand{
+    width: 450px;
+    border: 2px solid gray;
+    border-radius: 20px;
+}
+
+img{
+    margin-top: 20px;
+    margin-left: 20px;
+}
+
+.h1{
+    text-align: center;
+}
+
+.thailand p{
+    margin-left: 20px;
+    margin-top: 20px;
+    mar
+}
+
+.money{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 250px;
+    margin-top: 20px;max-resolution;
+    margin-left:20px
+}
+
+.money button{
+    background-color: blue;
+    width: 120px;
+    border: none;
+    color: white;
+    height: 40px;
+    margin-right: 20px;
+    border-radius: 2px;
+    margin-bottom: 10px;
+    margin-top: 10px;
+}
