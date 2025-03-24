@@ -1,0 +1,29 @@
+button:hover{
+    background-color: red;
+    border: none;
+    cursor: pointer;
+}
+
+h1:hover{
+    color: yellow;
+}
+
+/* .parent h2:nth-child(odd){
+    background-color: brown;
+}
+
+.parent h2:nth-child(even){
+    background-color: blue;
+} */
+
+
+.parent h1:first-child{
+    background-color: greenyellow;
+}
+
+.parent h1:last-child{
+    background-color: yellow;
+}
+
+
+
