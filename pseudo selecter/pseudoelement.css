@@ -1,0 +1,26 @@
+.para::first-letter{
+    font-size: 60px;
+    color: yellowgreen;
+}
+
+.para::first-line{
+    font-weight: bold;
+}
+
+.para::after{
+    /* content: "Ayush"; */
+    color: burlywood;
+    font-size: 60px;
+}
+
+.para::before{
+    content: "i am ";
+}
+
+.name::after{
+    content: " Rusiya";
+}
+
+input::placeholder{
+    color: red;
+}
