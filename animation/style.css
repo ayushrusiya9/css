@@ -17,9 +17,11 @@
 .box{
     width: 200px;
     height: 200px;
-    background-color: aquamarine;
+    /* background-color: aquamarine; */
+    background: linear-gradient(to bottom, rgb(53, 43, 30), rgb(249, 201, 133)); 
+
     /* animation: name duration timing-function delay iteration-count direction fill-mode; */
-    animation: bgcolor 5s ease infinite;
+    /* animation: bgcolor 5s ease infinite; */
 }
 
 @keyframes bgcolor {
