@@ -15,17 +15,36 @@
 }
 
 .box{
-    width: 200px;
-    height: 200px;
+    width: 400px;
+    height: 400px;
     /* background-color: aquamarine; */
     background: linear-gradient(to bottom, rgb(53, 43, 30), rgb(249, 201, 133)); 
-
+    transition: all 3s ease;
     /* animation: name duration timing-function delay iteration-count direction fill-mode; */
     /* animation: bgcolor 5s ease infinite; */
 }
 
+.box:hover{
+    background-color: brown;
+    transform: scale(1.5);
+}
+
+.scroll{
+   display: grid;
+   grid-template-columns: repeat(10,400px);
+   overflow: scroll;
+
+}
+
+.scroll div{
+    /* background-color: burlywood; */
+    border: 1px solid black;
+    width: 400px;
+    height: 400px;
+}
+
 @keyframes bgcolor {
-    0%{
+    /* 0%{
         background-color: green;
         transform: translate(0px,0px);
     }
@@ -43,7 +62,7 @@
     75%{
         background-color: burlywood;
         transform: translate(0px,400px);
-    }
+    } */
 
    
 }
