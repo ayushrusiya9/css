@@ -1,0 +1,26 @@
+.wrapper{
+    display: grid;
+    grid-template-columns: repeat(4,auto);
+}
+
+.ch{
+    background-color: red;
+    height: 200px;
+    border: 2px solid black;
+}
+
+@media screen and (min-width: 400px) and (max-width: 750px) {
+    .wrapper{
+        display: grid;
+        grid-template-columns: repeat(2,auto);
+    }
+
+}
+
+@media screen and (max-width: 399px) {
+    .wrapper{
+        display: grid;
+        grid-template-columns: repeat(1,auto);
+    }
+
+}
